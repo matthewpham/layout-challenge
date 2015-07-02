@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300italic,300,400italic);
+
+body {
+	font-family: 'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	background-image: none;
+}
+
+a:link {
+	text-decoration: none;
+	color: #0000AA;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #0000AA;
+}
+
+a:hover {
+	color: #0000EE;
+}
+
+input:focus {
+	color: #0000EE;
+}
+
+h1 {
+	font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', sans-serif;
+	font-size: 300%;
+	font-weight: 300;
+	margin: 0;
+}
+
+h2 {
+	font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', sans-serif;
+	font-size: 150%;
+	font-weight: 300;
+	margin: 0;
+	color: #505050;
+}
+
+h3 {
+	font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', sans-serif;
+	font-size: 125%;
+	font-weight: 300;
+	color: #505050;
+}
+
+main {
+	margin: 0;
+	background-image: url("../img/ricepaper_v3.png");
+	opacity: 0.9;
+}
+
+header {
+	position: relative;
+	padding: 1em;
+	background-color: #FA5A0F;
+	border-bottom: 5px #EA4A00;
+	color: #FFFFFF;
+}
+
+#tagline1 {
+	display: none;
+}
+
+#general-info {
+	padding: 1em;
+}
+
+#menu {
+	padding: 1em;
+	background-color: rgba(207, 205, 140, 0.5);
+}
+
+dt {
+	font-weight: 400;
+}
+
+dd {
+	font-size: 80%;
+	font-style: italic;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+
+#about-us {
+	padding: 1em;
+}
+
+footer {
+	padding: 1em;
+	background-color: #FC892F;
+	border-top: 5px #EC791F;
+	font-size: 80%;
+	text-align: right;
+}
+#nav1 {
+	padding: 0;
+	margin: 0;
+}
+.navi {
+	display: inline-block;
+	margin-right: 1em;
+	list-style-type: none;
+}
+.navi a {
+	color: #55E;
+}
+.navi a:hover, a:focus {
+	color: #00E;
+} 
+
+main.container-fluid {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+@media only screen and (min-width: 992px) {
+	body {
+		font-size: 18px;
+		background-image: url("../img/background.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+	}
+	main {
+		margin: 20px 20px 20px 30%;
+	}
+	#tagline1 {
+		display: inline;
+		font-size: 120%;
+		color: #EEEEEE;
+		margin: 0;
+	}
+	nav {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	}
+}
